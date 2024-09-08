@@ -1,4 +1,4 @@
-```markdown
+
 # fastify-i18n-plugin
 
 A Fastify plugin for dynamic internationalization (i18n) that supports real-time translation updates and validation tools. This plugin allows you to easily manage translations in multiple languages and load them dynamically to optimize performance in large-scale applications.
@@ -93,5 +93,5 @@ If you would like to contribute or suggest new features, feel free to open a **p
 ## License
 
 This project is licensed under the **ISC License**.
-```
+
 
