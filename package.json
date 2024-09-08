@@ -1,0 +1,16 @@
+{
+  "name": "fastify-i18n-plugin",
+  "version": "1.0.0",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "validate:translations": "node validateTranslations.mjs"
+  },
+  "keywords": ["fastify", "i18n", "translations", "internationalization"],
+  "author": "Il tuo nome",
+  "license": "ISC",
+  "description": "A Fastify plugin for dynamic i18n (internationalization) support with real-time translation updates and validation tools.",
+  "dependencies": {
+    "fastify": "^4.28.1"
+  }
+}
