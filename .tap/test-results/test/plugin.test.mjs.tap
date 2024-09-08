@@ -5,6 +5,6 @@ TAP version 14
     ok 3 - Italian route should return 200
     ok 4 - Italian greeting should be correct
     1..4
-ok 1 - Fastify i18n Plugin - Should return correct translation # time=72.076ms
+ok 1 - Fastify i18n Plugin - Should return correct translation # time=79.504ms
 
 1..1

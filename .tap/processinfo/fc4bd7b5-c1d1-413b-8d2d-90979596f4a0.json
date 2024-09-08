@@ -1,5 +1,5 @@
 {
-  "date": "2024-09-08T09:15:34.303Z",
+  "date": "2024-09-08T09:32:04.192Z",
   "argv": [
     "C:\\Program Files\\nodejs\\node.exe",
     "C:\\Users\\utente\\fastify-i18n-plugin\\test\\plugin.test.mjs"
@@ -12,10 +12,10 @@
   ],
   "NODE_OPTIONS": "\"--import=file:///C:/Users/utente/fastify-i18n-plugin/node_modules/@tapjs/processinfo/dist/esm/import.mjs\"",
   "cwd": "C:\\Users\\utente\\fastify-i18n-plugin",
-  "pid": 12452,
-  "ppid": 4860,
+  "pid": 11328,
+  "ppid": 10864,
   "parent": null,
-  "uuid": "5a1f762e-2535-416a-8008-2f4f52eaedc1",
+  "uuid": "fc4bd7b5-c1d1-413b-8d2d-90979596f4a0",
   "files": [
     "C:\\Users\\utente\\fastify-i18n-plugin\\test\\plugin.test.mjs",
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@isaacs\\ts-node-temp-fork-for-pr-2009\\import.mjs",
@@ -67,10 +67,10 @@
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\path-scurry\\dist\\esm\\index.js",
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\glob\\dist\\esm\\pattern.js",
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\glob\\dist\\esm\\walker.js",
-    "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\minipass\\dist\\esm\\index.js",
-    "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\glob\\dist\\esm\\processor.js",
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\path-scurry\\node_modules\\lru-cache\\dist\\esm\\index.js",
+    "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\minipass\\dist\\esm\\index.js",
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\minimatch\\dist\\esm\\brace-expressions.js",
+    "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\glob\\dist\\esm\\processor.js",
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\mock\\dist\\esm\\loader.mjs",
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\mock\\dist\\esm\\hooks.mjs",
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\mock\\dist\\esm\\mock-service-client.js",
@@ -104,11 +104,11 @@
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\tap-parser\\dist\\esm\\index.js",
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\core\\dist\\esm\\diags.js",
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\core\\dist\\esm\\message-from-error.js",
-    "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\processinfo\\dist\\esm\\index.js",
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\is-actual-promise\\dist\\esm\\index.js",
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\trivial-deferred\\dist\\mjs\\index.js",
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\core\\dist\\esm\\esc.js",
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\core\\dist\\esm\\implicit-end-sigil.js",
+    "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\processinfo\\dist\\esm\\index.js",
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\after\\dist\\esm\\index.js",
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\after-each\\dist\\esm\\index.js",
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\asserts\\dist\\esm\\index.js",
@@ -145,14 +145,14 @@
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\fixture\\dist\\esm\\fixture.js",
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\mock\\dist\\esm\\mock-require.js",
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\node-serialize\\dist\\esm\\serialize.js",
-    "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\jackspeak\\dist\\esm\\parse-args.js",
-    "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@isaacs\\cliui\\index.mjs",
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\snapshot\\dist\\esm\\clean-cwd.js",
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\snapshot\\dist\\esm\\provider.js",
+    "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\tap-parser\\dist\\esm\\final-plan.js",
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\tap-yaml\\dist\\esm\\parse.js",
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\tap-yaml\\dist\\esm\\stringify.js",
+    "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\jackspeak\\dist\\esm\\parse-args.js",
+    "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@isaacs\\cliui\\index.mjs",
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\tap-parser\\dist\\esm\\brace-patterns.js",
-    "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\tap-parser\\dist\\esm\\final-plan.js",
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\diff\\lib\\index.mjs",
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\processinfo\\dist\\esm\\spawn-opts.js",
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\tcompare\\dist\\esm\\format.js",
@@ -180,18 +180,24 @@
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\node-serialize\\dist\\esm\\print-messages.js",
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\node-serialize\\dist\\esm\\stdio.js",
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\node-serialize\\dist\\esm\\test-map.js",
+    "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\snapshot\\dist\\esm\\require.js",
+    "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\tap-yaml\\dist\\esm\\types\\index.js",
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@isaacs\\cliui\\build\\lib\\index.js",
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@isaacs\\cliui\\node_modules\\string-width\\index.js",
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\strip-ansi\\index.js",
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@isaacs\\cliui\\node_modules\\wrap-ansi\\index.js",
-    "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\snapshot\\dist\\esm\\require.js",
-    "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\tap-yaml\\dist\\esm\\types\\index.js",
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\tcompare\\dist\\esm\\react-element-to-jsx-string.js",
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\rimraf\\dist\\esm\\platform.js",
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\rimraf\\dist\\esm\\default-tmp.js",
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\rimraf\\dist\\esm\\ignore-enoent.js",
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\rimraf\\dist\\esm\\fs.js",
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\rimraf\\dist\\esm\\readdir-or-error.js",
+    "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\error-serdes\\dist\\esm\\serialize.js",
+    "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\error-serdes\\dist\\esm\\deserialize.js",
+    "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\error-serdes\\dist\\esm\\test-stream-serialize.js",
+    "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\error-serdes\\dist\\esm\\test-stream-deserialize.js",
+    "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\error-serdes\\dist\\esm\\messages.js",
+    "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\error-serdes\\dist\\esm\\constants.js",
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\rimraf\\dist\\esm\\fix-eperm.js",
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\rimraf\\dist\\esm\\retry-busy.js",
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\mkdirp\\dist\\mjs\\mkdirp-manual.js",
@@ -199,22 +205,16 @@
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\mkdirp\\dist\\mjs\\opts-arg.js",
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\mkdirp\\dist\\mjs\\path-arg.js",
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\mkdirp\\dist\\mjs\\use-native.js",
-    "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\error-serdes\\dist\\esm\\serialize.js",
-    "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\error-serdes\\dist\\esm\\deserialize.js",
-    "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\error-serdes\\dist\\esm\\test-stream-serialize.js",
-    "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\error-serdes\\dist\\esm\\test-stream-deserialize.js",
-    "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\error-serdes\\dist\\esm\\messages.js",
-    "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\error-serdes\\dist\\esm\\constants.js",
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\node-serialize\\dist\\esm\\loc-from-at.js",
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\node-serialize\\dist\\esm\\test-nested-location.js",
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\node-serialize\\dist\\esm\\test-message-data.js",
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\node-serialize\\dist\\esm\\test-point-message-data.js",
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\node-serialize\\dist\\esm\\test-point-results.js",
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\node-serialize\\dist\\esm\\test-results.js",
-    "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\ansi-regex\\index.js",
-    "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\ansi-styles\\index.js",
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\tap-yaml\\dist\\esm\\types\\date.js",
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\tap-yaml\\dist\\esm\\types\\timestamp.js",
+    "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\ansi-regex\\index.js",
+    "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\ansi-styles\\index.js",
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\mkdirp\\dist\\mjs\\find-made.js",
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\node-serialize\\dist\\esm\\loc-from-callsite.js",
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\node-serialize\\dist\\esm\\result-to-error.js",
@@ -362,17 +362,17 @@
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\glob\\dist\\esm\\walker.js": [
       "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\glob\\src\\walker.ts"
     ],
-    "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\minipass\\dist\\esm\\index.js": [
-      "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\minipass\\src\\index.ts"
-    ],
-    "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\glob\\dist\\esm\\processor.js": [
-      "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\glob\\src\\processor.ts"
-    ],
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\path-scurry\\node_modules\\lru-cache\\dist\\esm\\index.js": [
       "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\path-scurry\\node_modules\\lru-cache\\src\\index.ts"
     ],
+    "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\minipass\\dist\\esm\\index.js": [
+      "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\minipass\\src\\index.ts"
+    ],
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\minimatch\\dist\\esm\\brace-expressions.js": [
       "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\minimatch\\src\\brace-expressions.ts"
+    ],
+    "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\glob\\dist\\esm\\processor.js": [
+      "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\glob\\src\\processor.ts"
     ],
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\tap\\dist\\esm\\index.js": [
       "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\tap\\src\\index.ts"
@@ -461,9 +461,6 @@
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\core\\dist\\esm\\message-from-error.js": [
       "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\core\\src\\message-from-error.ts"
     ],
-    "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\processinfo\\dist\\esm\\index.js": [
-      "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\processinfo\\src\\index.ts"
-    ],
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\is-actual-promise\\dist\\esm\\index.js": [
       "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\is-actual-promise\\src\\index.ts"
     ],
@@ -475,6 +472,9 @@
     ],
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\core\\dist\\esm\\implicit-end-sigil.js": [
       "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\core\\src\\implicit-end-sigil.ts"
+    ],
+    "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\processinfo\\dist\\esm\\index.js": [
+      "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\processinfo\\src\\index.ts"
     ],
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\after\\dist\\esm\\index.js": [
       "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\after\\src\\index.ts"
@@ -584,14 +584,14 @@
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\node-serialize\\dist\\esm\\serialize.js": [
       "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\node-serialize\\src\\serialize.ts"
     ],
-    "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\jackspeak\\dist\\esm\\parse-args.js": [
-      "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\jackspeak\\src\\parse-args.ts"
-    ],
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\snapshot\\dist\\esm\\clean-cwd.js": [
       "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\snapshot\\src\\clean-cwd.ts"
     ],
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\snapshot\\dist\\esm\\provider.js": [
       "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\snapshot\\src\\provider.ts"
+    ],
+    "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\tap-parser\\dist\\esm\\final-plan.js": [
+      "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\tap-parser\\src\\final-plan.ts"
     ],
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\tap-yaml\\dist\\esm\\parse.js": [
       "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\tap-yaml\\src\\parse.ts"
@@ -599,11 +599,11 @@
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\tap-yaml\\dist\\esm\\stringify.js": [
       "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\tap-yaml\\src\\stringify.ts"
     ],
+    "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\jackspeak\\dist\\esm\\parse-args.js": [
+      "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\jackspeak\\src\\parse-args.ts"
+    ],
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\tap-parser\\dist\\esm\\brace-patterns.js": [
       "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\tap-parser\\src\\brace-patterns.ts"
-    ],
-    "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\tap-parser\\dist\\esm\\final-plan.js": [
-      "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\tap-parser\\src\\final-plan.ts"
     ],
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\processinfo\\dist\\esm\\spawn-opts.js": [
       "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\processinfo\\src\\spawn-opts.ts"
@@ -707,6 +707,24 @@
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\rimraf\\dist\\esm\\readdir-or-error.js": [
       "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\rimraf\\src\\readdir-or-error.ts"
     ],
+    "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\error-serdes\\dist\\esm\\serialize.js": [
+      "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\error-serdes\\src\\serialize.ts"
+    ],
+    "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\error-serdes\\dist\\esm\\deserialize.js": [
+      "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\error-serdes\\src\\deserialize.ts"
+    ],
+    "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\error-serdes\\dist\\esm\\test-stream-serialize.js": [
+      "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\error-serdes\\src\\test-stream-serialize.ts"
+    ],
+    "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\error-serdes\\dist\\esm\\test-stream-deserialize.js": [
+      "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\error-serdes\\src\\test-stream-deserialize.ts"
+    ],
+    "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\error-serdes\\dist\\esm\\messages.js": [
+      "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\error-serdes\\src\\messages.ts"
+    ],
+    "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\error-serdes\\dist\\esm\\constants.js": [
+      "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\error-serdes\\src\\constants.ts"
+    ],
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\rimraf\\dist\\esm\\fix-eperm.js": [
       "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\rimraf\\src\\fix-eperm.ts"
     ],
@@ -727,24 +745,6 @@
     ],
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\mkdirp\\dist\\mjs\\use-native.js": [
       "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\mkdirp\\src\\use-native.ts"
-    ],
-    "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\error-serdes\\dist\\esm\\serialize.js": [
-      "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\error-serdes\\src\\serialize.ts"
-    ],
-    "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\error-serdes\\dist\\esm\\deserialize.js": [
-      "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\error-serdes\\src\\deserialize.ts"
-    ],
-    "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\error-serdes\\dist\\esm\\test-stream-serialize.js": [
-      "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\error-serdes\\src\\test-stream-serialize.ts"
-    ],
-    "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\error-serdes\\dist\\esm\\test-stream-deserialize.js": [
-      "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\error-serdes\\src\\test-stream-deserialize.ts"
-    ],
-    "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\error-serdes\\dist\\esm\\messages.js": [
-      "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\error-serdes\\src\\messages.ts"
-    ],
-    "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\error-serdes\\dist\\esm\\constants.js": [
-      "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\error-serdes\\src\\constants.ts"
     ],
     "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\node-serialize\\dist\\esm\\loc-from-at.js": [
       "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\node-serialize\\src\\loc-from-at.ts"
@@ -783,9 +783,9 @@
       "C:\\Users\\utente\\fastify-i18n-plugin\\node_modules\\@tapjs\\node-serialize\\src\\pretty-diff.ts"
     ]
   },
-  "root": "5a1f762e-2535-416a-8008-2f4f52eaedc1",
+  "root": "fc4bd7b5-c1d1-413b-8d2d-90979596f4a0",
   "externalID": "test/plugin.test.mjs",
   "code": 0,
   "signal": null,
-  "runtime": 3311.1630999999998
+  "runtime": 3668.7519
 }
