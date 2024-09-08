@@ -1,7 +1,6 @@
-```markdown
 # fastify-i18n-plugin
 
-A Fastify plugin for dynamic internationalization (i18n) that supports real-time translation updates and validation tools. This plugin allows you to easily manage translations in multiple languages and load them dynamically to optimize performance in large-scale applications.
+A **Fastify** plugin that adds dynamic internationalization (i18n) to your Fastify project. This plugin allows you to load translations dynamically from JSON files and serve translated content based on the user's locale.
 
 ## Installation
 
@@ -23,14 +22,16 @@ const fastify = Fastify({
   logger: true,
 });
 
-// Register the plugin
+// Register the i18n plugin
 fastify.register(i18nPlugin, {
-  translationsPath: './translations', // Path to the translations folder
+  defaultLocale: 'en',
+  directory: './translations',
 });
 
-// Add a route that uses the translation function
+// Define some routes
 fastify.get('/:lang/greet', async (request, reply) => {
-  const greeting = await fastify.translate(request.params.lang, 'greeting');
+  const lang = request.params.lang;
+  const greeting = request.i18n(lang).greeting;
   reply.send({ greeting });
 });
 
@@ -46,44 +47,64 @@ fastify.listen({ port: 3000 }, (err, address) => {
 
 ## Features
 
-- **Dynamic Translation Loading**: Load translations only when requested, improving performance in large applications.
-- **Real-Time Updates**: Update translations without restarting the server.
-- **Translation Validation**: Validate translation files to ensure all keys are present and correctly structured.
-- **Multi-language Support**: Easily add new languages by creating simple JSON files.
+- **Dynamic Translations**: Load translations from JSON files in a specified directory.
+- **Route-based Language Switching**: The language is determined based on the route parameter (`:lang`).
+- **Caching for Performance**: Caching of translation files for improved performance.
+- **Supports Multiple Languages**: Easily add support for multiple languages by adding JSON translation files.
+
+### Example Route
+
+The following route will respond with a greeting in the requested language:
+
+- `GET /en/greet`: Responds with the greeting in English.
+- `GET /it/greet`: Responds with the greeting in Italian.
 
 ### Example Response:
 
 ```json
 {
-  "greeting": "Hello"
+  "greeting": "Hello"  // For English
 }
 ```
 
-## Translation Validation
+Or:
 
-To ensure your translations are valid and complete, you can run the included validation tool:
-
-```bash
-npm run validate:translations
+```json
+{
+  "greeting": "Ciao"  // For Italian
+}
 ```
 
-This tool will check for missing keys or misformatted JSON in your translation files.
+### Translation Files
 
-## Directory Structure
+You can add translation files in the `translations` folder like this:
 
-Make sure your project structure looks like this:
-
+```json
+// translations/en.json
+{
+  "greeting": "Hello",
+  "farewell": "Goodbye"
+}
 ```
-fastify-i18n-plugin/
-│
-├── translations/
-│   ├── en.json
-│   ├── it.json
-│   └── fr.json
-├── index.mjs
-├── server.mjs
-├── validateTranslations.mjs
-└── package.json
+
+```json
+// translations/it.json
+{
+  "greeting": "Ciao",
+  "farewell": "Arrivederci"
+}
+```
+
+## Adding New Languages
+
+To add support for a new language, simply create a new JSON file in the `translations` directory and include the necessary translations. For example, to add French:
+
+```json
+// translations/fr.json
+{
+  "greeting": "Bonjour",
+  "farewell": "Au revoir"
+}
 ```
 
 ## Contributing
@@ -93,5 +114,5 @@ If you would like to contribute or suggest new features, feel free to open a **p
 ## License
 
 This project is licensed under the **ISC License**.
-```
+
 

@@ -1,0 +1,10 @@
+TAP version 14
+# Subtest: Fastify i18n Plugin - Should return correct translation
+    ok 1 - English route should return 200
+    ok 2 - English greeting should be correct
+    ok 3 - Italian route should return 200
+    ok 4 - Italian greeting should be correct
+    1..4
+ok 1 - Fastify i18n Plugin - Should return correct translation # time=72.076ms
+
+1..1

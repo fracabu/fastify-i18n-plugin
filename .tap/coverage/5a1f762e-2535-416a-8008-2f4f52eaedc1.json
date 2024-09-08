@@ -1,0 +1,222 @@
+{
+  "result": [
+    {
+      "scriptId": "316",
+      "url": "file:///C:/Users/utente/fastify-i18n-plugin/index.mjs",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 0,
+              "endOffset": 1136,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "loadTranslation",
+          "ranges": [
+            {
+              "startOffset": 126,
+              "endOffset": 427,
+              "count": 2
+            },
+            {
+              "startOffset": 285,
+              "endOffset": 424,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "i18nPlugin",
+          "ranges": [
+            {
+              "startOffset": 431,
+              "endOffset": 1062,
+              "count": 1
+            },
+            {
+              "startOffset": 518,
+              "endOffset": 537,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 653,
+              "endOffset": 1057,
+              "count": 2
+            },
+            {
+              "startOffset": 822,
+              "endOffset": 1044,
+              "count": 0
+            },
+            {
+              "startOffset": 1045,
+              "endOffset": 1051,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": true
+        }
+      ]
+    },
+    {
+      "scriptId": "861",
+      "url": "file:///C:/Users/utente/node_modules/fastify-plugin/plugin.js",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 0,
+              "endOffset": 1671,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "plugin",
+          "ranges": [
+            {
+              "startOffset": 132,
+              "endOffset": 1575,
+              "count": 1
+            },
+            {
+              "startOffset": 234,
+              "endOffset": 337,
+              "count": 0
+            },
+            {
+              "startOffset": 371,
+              "endOffset": 479,
+              "count": 0
+            },
+            {
+              "startOffset": 516,
+              "endOffset": 566,
+              "count": 0
+            },
+            {
+              "startOffset": 665,
+              "endOffset": 736,
+              "count": 0
+            },
+            {
+              "startOffset": 774,
+              "endOffset": 812,
+              "count": 0
+            },
+            {
+              "startOffset": 814,
+              "endOffset": 927,
+              "count": 0
+            },
+            {
+              "startOffset": 950,
+              "endOffset": 1033,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": true
+        }
+      ]
+    },
+    {
+      "scriptId": "862",
+      "url": "file:///C:/Users/utente/node_modules/fastify-plugin/lib/getPluginName.js",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 0,
+              "endOffset": 726,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "getPluginName",
+          "ranges": [
+            {
+              "startOffset": 145,
+              "endOffset": 447,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": false
+        },
+        {
+          "functionName": "extractPluginName",
+          "ranges": [
+            {
+              "startOffset": 449,
+              "endOffset": 672,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": false
+        }
+      ]
+    },
+    {
+      "scriptId": "863",
+      "url": "file:///C:/Users/utente/node_modules/fastify-plugin/lib/toCamelCase.js",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 0,
+              "endOffset": 248,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "toCamelCase",
+          "ranges": [
+            {
+              "startOffset": 31,
+              "endOffset": 247,
+              "count": 1
+            },
+            {
+              "startOffset": 84,
+              "endOffset": 132,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 173,
+              "endOffset": 227,
+              "count": 2
+            }
+          ],
+          "isBlockCoverage": true
+        }
+      ]
+    }
+  ],
+  "timestamp": 5452.526339,
+  "source-map-cache": {}
+}
