@@ -4,7 +4,7 @@
 
 Se desideri scaricarlo o testarlo,<bk>puoi farlo qui 👇 
 
-[![npm version](https://img.shields.io/npm/v/fastify-i18n-plugin.svg)](https://www.npmjs.com/package/fastify-i18n-plugin) 
+                                                  [![npm version](https://img.shields.io/npm/v/fastify-i18n-plugin.svg)](https://www.npmjs.com/package/fastify-i18n-plugin) 
 
 
 ## 🚀 Installazione
