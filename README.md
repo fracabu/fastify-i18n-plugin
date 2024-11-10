@@ -3,6 +3,7 @@
 **fastify-i18n-plugin** è un plugin per [Fastify](https://www.fastify.io/) che aggiunge funzionalità di internazionalizzazione (i18n) dinamica al tuo progetto. Consente di caricare traduzioni da file JSON e di servire contenuti tradotti in base alla lingua dell'utente.
 
 Se desideri scaricarlo o testarlo,puoi farlo qui 👇 
+
 [![npm version](https://img.shields.io/npm/v/fastify-i18n-plugin.svg)](https://www.npmjs.com/package/fastify-i18n-plugin) 
 
 
