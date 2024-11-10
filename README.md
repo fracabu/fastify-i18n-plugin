@@ -1,20 +1,22 @@
-# fastify-i18n-plugin
+# 🌐 fastify-i18n-plugin
 
-A **Fastify** plugin that adds dynamic internationalization (i18n) to your Fastify project. This plugin allows you to load translations dynamically from JSON files and serve translated content based on the user's locale.
+**fastify-i18n-plugin** è un plugin per [Fastify](https://www.fastify.io/) che aggiunge funzionalità di internazionalizzazione (i18n) dinamica al tuo progetto. Consente di caricare traduzioni da file JSON e di servire contenuti tradotti in base alla lingua dell'utente.
 
-## Installation
+[![npm version](https://img.shields.io/npm/v/fastify-i18n-plugin.svg)](https://www.npmjs.com/package/fastify-i18n-plugin)
 
-You can install the plugin via npm:
+## 🚀 Installazione
+
+Per installare il plugin, utilizza npm:
 
 ```bash
 npm install fastify-i18n-plugin
 ```
 
-## Usage
+## 🛠️ Utilizzo
 
-Here's an example of how to register the plugin in your Fastify project:
+Ecco un esempio di come registrare il plugin nel tuo progetto Fastify:
 
-```js
+```javascript
 import Fastify from 'fastify';
 import i18nPlugin from 'fastify-i18n-plugin';
 
@@ -22,62 +24,39 @@ const fastify = Fastify({
   logger: true,
 });
 
-// Register the i18n plugin
+// Registra il plugin i18n
 fastify.register(i18nPlugin, {
   defaultLocale: 'en',
   directory: './translations',
 });
 
-// Define some routes
+// Definisci alcune rotte
 fastify.get('/:lang/greet', async (request, reply) => {
   const lang = request.params.lang;
   const greeting = request.i18n(lang).greeting;
   reply.send({ greeting });
 });
 
-// Start the server
+// Avvia il server
 fastify.listen({ port: 3000 }, (err, address) => {
   if (err) {
     fastify.log.error(err);
     process.exit(1);
   }
-  fastify.log.info(`Server listening at ${address}`);
+  fastify.log.info(`Server in ascolto su ${address}`);
 });
 ```
 
-## Features
+## ✨ Caratteristiche
 
-- **Dynamic Translations**: Load translations from JSON files in a specified directory.
-- **Route-based Language Switching**: The language is determined based on the route parameter (`:lang`).
-- **Caching for Performance**: Caching of translation files for improved performance.
-- **Supports Multiple Languages**: Easily add support for multiple languages by adding JSON translation files.
+- **Traduzioni Dinamiche**: Carica traduzioni da file JSON in una directory specificata.
+- **Cambio Lingua Basato sulle Rotte**: La lingua è determinata in base al parametro della rotta (`:lang`).
+- **Caching per le Prestazioni**: Cache dei file di traduzione per migliorare le prestazioni.
+- **Supporto Multilingue**: Aggiungi facilmente supporto per più lingue aggiungendo file di traduzione JSON.
 
-### Example Route
+## 📂 File di Traduzione
 
-The following route will respond with a greeting in the requested language:
-
-- `GET /en/greet`: Responds with the greeting in English.
-- `GET /it/greet`: Responds with the greeting in Italian.
-
-### Example Response:
-
-```json
-{
-  "greeting": "Hello"  // For English
-}
-```
-
-Or:
-
-```json
-{
-  "greeting": "Ciao"  // For Italian
-}
-```
-
-### Translation Files
-
-You can add translation files in the `translations` folder like this:
+Puoi aggiungere file di traduzione nella cartella `translations` come segue:
 
 ```json
 // translations/en.json
@@ -95,9 +74,9 @@ You can add translation files in the `translations` folder like this:
 }
 ```
 
-## Adding New Languages
+## 🌍 Aggiungere Nuove Lingue
 
-To add support for a new language, simply create a new JSON file in the `translations` directory and include the necessary translations. For example, to add French:
+Per aggiungere il supporto a una nuova lingua, crea un nuovo file JSON nella directory `translations` e includi le traduzioni necessarie. Ad esempio, per aggiungere il francese:
 
 ```json
 // translations/fr.json
@@ -107,12 +86,10 @@ To add support for a new language, simply create a new JSON file in the `transla
 }
 ```
 
-## Contributing
+## 🤝 Contributi
 
-If you would like to contribute or suggest new features, feel free to open a **pull request** or create an **issue** on the project's GitHub repository.
+Se desideri contribuire o suggerire nuove funzionalità, sentiti libero di aprire una **pull request** o creare una **issue** sul [repository GitHub del progetto](https://github.com/fracabu/fastify-i18n-plugin).
 
-## License
+## 📄 Licenza
 
-This project is licensed under the **ISC License**.
-
-
+Questo progetto è distribuito sotto la licenza **MIT**. Consulta il file [LICENSE](./LICENSE) per maggiori informazioni. 
