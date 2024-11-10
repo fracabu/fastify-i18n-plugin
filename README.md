@@ -1,4 +1,4 @@
-🌐 **fastify-i18n-plugin**
+**## 🌐 fastify-i18n-plugin##**
 
 **fastify-i18n-plugin** è un plugin per [Fastify](https://www.fastify.io/) che aggiunge funzionalità di internazionalizzazione (i18n) dinamica al tuo progetto. Consente di caricare traduzioni da file JSON e di servire contenuti tradotti in base alla lingua dell'utente.
 
