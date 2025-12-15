@@ -1,98 +1,127 @@
-## 🌐 fastify-i18n-plugin
+<h1 align="center">fastify-i18n-plugin</h1>
+<h3 align="center">Dynamic internationalization for Fastify</h3>
 
-**fastify-i18n-plugin** è un plugin per [Fastify](https://www.fastify.io/) che aggiunge funzionalità di internazionalizzazione (i18n) dinamica al tuo progetto. Consente di caricare traduzioni da file JSON e di servire contenuti tradotti in base alla lingua dell'utente.
+<p align="center">
+  <a href="https://www.npmjs.com/package/fastify-i18n-plugin"><img src="https://img.shields.io/npm/v/fastify-i18n-plugin.svg" alt="npm version" /></a>
+  <img src="https://img.shields.io/badge/Fastify-000000?style=flat-square&logo=fastify&logoColor=white" alt="Fastify" />
+  <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT" />
+</p>
 
-Se desideri scaricarlo o testarlo,puoi farlo qui 👇 
+<p align="center">
+  :gb: <a href="#english">English</a> | :it: <a href="#italiano">Italiano</a>
+</p>
 
-[![npm version](https://img.shields.io/npm/v/fastify-i18n-plugin.svg)](https://www.npmjs.com/package/fastify-i18n-plugin) 
+---
 
+## Overview
 
-## 🚀 Installazione
+<!-- ![fastify-i18n-plugin Overview](assets/i18n-overview.png) -->
 
-Per installare il plugin, utilizza npm:
+---
+
+<a name="english"></a>
+## :gb: English
+
+### Features
+
+- **Dynamic Translations**: Load translations from JSON files
+- **Route-Based Language**: Language determined by route parameter
+- **Performance Caching**: Translation files are cached
+- **Multi-Language Support**: Add languages by adding JSON files
+
+### Install
 
 ```bash
 npm install fastify-i18n-plugin
 ```
 
-## 🛠️ Utilizzo
+### Quick Start
 
-Ecco un esempio di come registrare il plugin nel tuo progetto Fastify:
+```typescript
+import Fastify from 'fastify'
+import i18nPlugin from 'fastify-i18n-plugin'
 
-```javascript
-import Fastify from 'fastify';
-import i18nPlugin from 'fastify-i18n-plugin';
+const fastify = Fastify()
 
-const fastify = Fastify({
-  logger: true,
-});
-
-// Registra il plugin i18n
 fastify.register(i18nPlugin, {
   defaultLocale: 'en',
-  directory: './translations',
-});
+  directory: './translations'
+})
 
-// Definisci alcune rotte
 fastify.get('/:lang/greet', async (request, reply) => {
-  const lang = request.params.lang;
-  const greeting = request.i18n(lang).greeting;
-  reply.send({ greeting });
-});
-
-// Avvia il server
-fastify.listen({ port: 3000 }, (err, address) => {
-  if (err) {
-    fastify.log.error(err);
-    process.exit(1);
-  }
-  fastify.log.info(`Server in ascolto su ${address}`);
-});
+  const lang = request.params.lang
+  const greeting = request.i18n(lang).greeting
+  reply.send({ greeting })
+})
 ```
 
-## ✨ Caratteristiche
-
-- **Traduzioni Dinamiche**: Carica traduzioni da file JSON in una directory specificata.
-- **Cambio Lingua Basato sulle Rotte**: La lingua è determinata in base al parametro della rotta (`:lang`).
-- **Caching per le Prestazioni**: Cache dei file di traduzione per migliorare le prestazioni.
-- **Supporto Multilingue**: Aggiungi facilmente supporto per più lingue aggiungendo file di traduzione JSON.
-
-## 📂 File di Traduzione
-
-Puoi aggiungere file di traduzione nella cartella `translations` come segue:
+### Translation Files
 
 ```json
 // translations/en.json
-{
-  "greeting": "Hello",
-  "farewell": "Goodbye"
-}
-```
+{ "greeting": "Hello", "farewell": "Goodbye" }
 
-```json
 // translations/it.json
-{
-  "greeting": "Ciao",
-  "farewell": "Arrivederci"
-}
+{ "greeting": "Ciao", "farewell": "Arrivederci" }
 ```
 
-## 🌍 Aggiungere Nuove Lingue
+---
 
-Per aggiungere il supporto a una nuova lingua, crea un nuovo file JSON nella directory `translations` e includi le traduzioni necessarie. Ad esempio, per aggiungere il francese:
+<a name="italiano"></a>
+## :it: Italiano
+
+### Funzionalita
+
+- **Traduzioni Dinamiche**: Carica traduzioni da file JSON
+- **Lingua Basata su Route**: Lingua determinata dal parametro della rotta
+- **Caching Prestazioni**: I file di traduzione sono in cache
+- **Supporto Multilingue**: Aggiungi lingue aggiungendo file JSON
+
+### Installazione
+
+```bash
+npm install fastify-i18n-plugin
+```
+
+### Quick Start
+
+```typescript
+import Fastify from 'fastify'
+import i18nPlugin from 'fastify-i18n-plugin'
+
+const fastify = Fastify()
+
+fastify.register(i18nPlugin, {
+  defaultLocale: 'en',
+  directory: './translations'
+})
+
+fastify.get('/:lang/greet', async (request, reply) => {
+  const lang = request.params.lang
+  const greeting = request.i18n(lang).greeting
+  reply.send({ greeting })
+})
+```
+
+### Aggiungere Nuove Lingue
+
+Crea un nuovo file JSON nella directory `translations`:
 
 ```json
 // translations/fr.json
-{
-  "greeting": "Bonjour",
-  "farewell": "Au revoir"
-}
+{ "greeting": "Bonjour", "farewell": "Au revoir" }
 ```
 
-## 🤝 Contributi
+---
 
-Se desideri contribuire o suggerire nuove funzionalità, sentiti libero di aprire una **pull request** o creare una **issue** sul [repository GitHub del progetto](https://github.com/fracabu/fastify-i18n-plugin).
+## License
 
-## 📄 Licenza
+MIT
 
-Questo progetto è distribuito sotto la licenza **MIT**. Consulta il file [LICENSE](./LICENSE) per maggiori informazioni. 
+---
+
+<p align="center">
+  <a href="https://github.com/fracabu">
+    <img src="https://img.shields.io/badge/Made_by-fracabu-8B5CF6?style=flat-square" alt="Made by fracabu" />
+  </a>
+</p>
